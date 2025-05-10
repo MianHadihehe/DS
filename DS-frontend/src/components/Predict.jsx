@@ -75,11 +75,11 @@ const Predict = () => {
       <form onSubmit={handleSubmit} noValidate>
         {[
           { label: 'Gender', name: 'gender', type: 'select', options: ['', 'Male', 'Female'] },
-          { label: 'Age', name: 'age', type: 'number' },
+          { label: 'Age (years)', name: 'age', type: 'number' },
           { label: 'Ever Married', name: 'ever_married', type: 'select', options: ['', 'Yes', 'No'] },
           { label: 'Work Type', name: 'work_type', type: 'select', options: ['', 'Private', 'Self-employed', 'Govt_job', 'children', 'Never_worked'] },
           { label: 'Residence', name: 'Residence_type', type: 'select', options: ['', 'Urban', 'Rural'] },
-          { label: 'Avg Glucose Level', name: 'avg_glucose_level', type: 'number', step: 'any' },
+          { label: 'Avg Glucose Level (mg/dl)', name: 'avg_glucose_level', type: 'number', step: 'any' },
           { label: 'Smoking Status', name: 'smoking_status', type: 'select', options: ['', 'formerly smoked', 'never smoked', 'smokes', 'Unknown'] },
         ].map(field => (
           <div className="field" key={field.name}>
