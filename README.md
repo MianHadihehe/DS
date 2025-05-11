@@ -16,11 +16,6 @@ This is a full-stack machine learning web application that predicts the probabil
 
 ---
 
-## 🌐 Live Demo
-
-Coming soon... (or add your deployment link here once available)
-
----
 
 ## 📊 Features
 
