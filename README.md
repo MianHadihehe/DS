@@ -29,11 +29,11 @@ This is a full-stack machine learning web application that predicts the probabil
 
 ## 📚 Datasets & Training
 
-Training and preprocessing scripts are located in `model-training/`. It contains:
+Training and preprocessing scripts are located in `jupyter-notebook/`. It contains:
 
 - `healthcare-dataset-stroke-data.csv`: Original dataset
 - `final_stroke_dataset.csv`: Transformed and cleaned dataset
-- `model_training.ipynb`: Jupyter notebook for encoding, scaling, and training
+- `complete-notebook.ipynb`: Jupyter notebook for data collection, preprocessing, wrangling, visualization, encoding, scaling, and training, evaluation.
 - Outputs:
   - `rf_model.pkl`
   - `label_encoders.pkl`
